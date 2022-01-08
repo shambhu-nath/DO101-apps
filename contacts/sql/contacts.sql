@@ -1,5 +1,4 @@
 drop table if exists contacts;
-drop table if exists contacts;
 
 create table contacts(id serial primary key,firstname varchar(30) not null,lastname varchar(30) not null, email varchar(30) not null);
 
